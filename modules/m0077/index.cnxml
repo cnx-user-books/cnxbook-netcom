@@ -1,0 +1,55 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+  <title>Network architectures and interconnection</title>
+
+  <metadata>
+  <md:content-id>m0077</md:content-id><md:title>Network architectures and interconnection</md:title>
+  <md:abstract>Two major types of networks exist: wide-are-networks and local-area-networks.</md:abstract>
+  <md:uuid>54db4968-7178-4ccb-b991-8d47efaaddf9</md:uuid>
+</metadata>
+
+<content>
+    <para id="par1">
+      The network structure—its <link document="m0075" target-id="commnetwork">architecture</link>—typifies what are
+      known as <term>wide area networks</term> (WANs). The nodes, and
+      users for that matter, are spread geographically over long
+      distances. "Long" has no precise definition, and is intended to
+      suggest that the communication links vary widely. The Internet
+      is certainly the largest WAN, spanning the entire earth and
+      beyond.  <term>Local area networks</term>, LANs, employ a single
+      communication link and special routing. Perhaps the best known
+      LAN is <link document="m0078" strength="3">Ethernet</link>. LANs
+      connect to other LANs and to wide area networks through special
+      nodes known as <term>gateways</term> (<link target-id="gateway" strength="3"/>).
+
+      In the Internet, a computer's address consists of a four byte
+      sequence, which is known as its <term>IP address</term>
+      (Internet Protocol address). An example address is
+      <emphasis>128.42.4.32</emphasis>: each byte is separated by a
+      period. The first two bytes specify the computer's
+      <term>domain</term> (here Rice University). Computers are also
+      addressed by a more human-readable form: a sequence of
+      alphabetic abbreviations representing institution, type of
+      institution, and computer name. A given computer has both names
+      (<emphasis>128.42.4.32</emphasis> is the same as
+      <emphasis>soma.rice.edu</emphasis>).  Data transmission on the
+      Internet requires the numerical form.  So-called <term>name
+      servers</term> translate between alphabetic and numerical forms,
+      and the transmitting computer requests this translation before
+      the message is sent to the network.</para>
+
+    <figure id="gateway">
+      <media id="id1105172" alt="">
+        <image src="../../media/sys25.png" mime-type="image/png"/>
+        <image for="pdf" src="../../media/sys25.eps" mime-type="application/postscript"/>
+      </media>
+      <caption>The gateway serves as an interface between local area
+      networks and the Internet. The two shown here translate between
+      LAN and WAN protocols; one of these also interfaces between two
+      LANs, presumably because together the two LANs would be
+      geographically too dispersed.
+      </caption>
+    </figure>
+
+  </content>
+</document>
