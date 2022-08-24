@@ -1,3 +1,21 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Textbook">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11181</md:content-id>  <md:title>netcom</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>              <md:uuid>12c261fe-5b2c-403a-a34d-02619588ee62</md:uuid>
-<md:slug>netcom</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Intoduction</md:title>                                <col:content>                    <col:module document="m0077"/>                            <col:module document="m15107"/>                            <col:module document="m13228"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Textbook" authors="shekhar maravi">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11181</md:content-id>
+    <md:title>netcom</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>12c261fe-5b2c-403a-a34d-02619588ee62</md:uuid>
+    <md:slug>netcom</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Intoduction</md:title>
+      <col:content>
+        <col:module document="m0077"/>
+        <col:module document="m15107"/>
+        <col:module document="m13228"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
